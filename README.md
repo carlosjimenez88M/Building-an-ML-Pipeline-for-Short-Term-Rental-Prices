@@ -1,5 +1,14 @@
 [//]: # (Image References)
 
+
+## links 
+
+Github : https://github.com/carlosjimenez88M/Building-an-ML-Pipeline-for-Short-Term-Rental-Prices
+
+WandB: https://wandb.ai/danieljimenez88m/nyc_airbnb?nw=nwuserdanieljimenez88m
+
+
+---
 [image1]: ./images/MLOps-process_fromNeptuneAI.PNG "ML workflow:"
 [image2]: ./images/mlops_nyc_airbnb_projectstructure.PNG "Project structure:"
 [image3]: ./images/nyc_airbnb_model-artifact_rf-regression_prod.PNG "End-to-end pipeline:"
