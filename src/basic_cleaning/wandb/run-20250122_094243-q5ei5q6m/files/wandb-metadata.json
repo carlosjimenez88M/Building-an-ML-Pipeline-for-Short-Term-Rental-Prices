@@ -1,0 +1,58 @@
+{
+  "os":  "macOS-15.1.1-arm64-arm-64bit",
+  "python":  "CPython 3.10.15",
+  "startedAt":  "2025-01-22T14:42:44.222714Z",
+  "args":  [
+    "--input_artifact",
+    "nyc_airbnb/sample.csv:latest",
+    "--output_artifact_name",
+    "cleaned_data.csv",
+    "--output_artifact_type",
+    "cleaned_data",
+    "--output_artifact_description",
+    "Cleaned data (e.g. outliers, skewness removed; datetime convertion)",
+    "--min_price",
+    "10",
+    "--max_price",
+    "350"
+  ],
+  "program":  "/Users/danieljimenez/Desktop/Building-an-ML-Pipeline-for-Short-Term-Rental-Prices/src/basic_cleaning/run.py",
+  "codePath":  "src/basic_cleaning/run.py",
+  "git":  {
+    "remote":  "git@github-personal:IloBe/Building-an-ML-Pipeline-for-Short-Term-Rental-Prices.git",
+    "commit":  "2e0ee66535332915a06b78f85d140ea5467b32cb"
+  },
+  "email":  "danieljimenez88m@gmail.com",
+  "root":  "/Users/danieljimenez/Desktop/Building-an-ML-Pipeline-for-Short-Term-Rental-Prices/src/basic_cleaning",
+  "host":  "macbookpro.lan",
+  "executable":  "/Users/danieljimenez/.pyenv/versions/3.10.15/bin/python",
+  "codePathLocal":  "run.py",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "448575135744"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "448575135744"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  10
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  8,
+    "gpuCores":  16,
+    "memoryGb":  16,
+    "swapTotalBytes":  "7516192768",
+    "ramTotalBytes":  "17179869184"
+  }
+}
