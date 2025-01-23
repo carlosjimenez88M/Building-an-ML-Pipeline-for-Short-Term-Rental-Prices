@@ -149,3 +149,9 @@ The initial release 1.0.0 provides a first basic model, but includes an issue re
 
 ## License
 The original [License](LICENSE.txt) of the fork is delivered.
+
+
+## Submission Details
+
+- **GitHub Repository:** [Building an ML Pipeline for Short-Term Rental Prices in NYC](https://github.com/carlosjimenez88M/Building-an-ML-Pipeline-for-Short-Term-Rental-Prices)
+- **Weights & Biases Project:** [NYC Airbnb Pipeline Project](https://wandb.ai/danieljimenez88m/nyc_airbnb?nw=nwuserdanieljimenez88m)
