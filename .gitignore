@@ -167,5 +167,61 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# PyPI configuration file
+
 .pypirc
+
+
+wandb/
+wandb/*
+mlruns/
+mlruns/*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.env
+.venv/
+env/
+venv/
+
+
+*.log
+*.DS_Store
+# === MLflow ===
+mlruns/
+mlartifacts/
+mlflow_logs/
+random_forest_dir/
+random_forest_dir/*
+mlflow.db
+mlflow.log
+mlflow-artifacts/
+mlflow-models/
+*.mlmodel
+
+# === Weights & Biases (W&B) ===
+wandb/
+wandb/*
+debug.log
+wandb-debug.log
+wandb-metadata.json
+wandb-summary.json
+wandb-config.json
+*.wandb
+
+# === Python & Entorno Virtual ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ipynb_checkpoints/
+*.ipynb_checkpoints
+
+src/train_random_forest/artifacts/*
+src/train_random_forest/artifacts/tmp*/
+src/train_random_forest/artifacts/tmp*

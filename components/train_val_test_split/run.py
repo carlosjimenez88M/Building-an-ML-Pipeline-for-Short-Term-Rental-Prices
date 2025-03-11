@@ -4,9 +4,11 @@
 This script splits the provided dataframe in test and remainder
 """
 
-###############
-# IMPORTS
-###############
+
+#=====================#
+# ---- Libraries ---- #
+#=====================#
+
 import argparse
 import logging
 import pandas as pd
@@ -15,15 +17,19 @@ import tempfile
 from sklearn.model_selection import train_test_split
 from wandb_utils.log_artifact import log_artifact
 
-###############
-# CONFIG
-###############
-logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
+#================================#
+# ---- Logger Configuration ---- #
+#================================#
+
+logging.basicConfig(level=logging.INFO, 
+                    format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
-###############
-# CODING
-###############
+
+#=========================#
+# ---- Main Function ---- #
+#=========================#
+
 def go(args):
 
     run = wandb.init(job_type="train_val_test_split")

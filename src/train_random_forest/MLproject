@@ -15,7 +15,7 @@ entry_points:
 
       random_seed:
         description: Seed for the random number generator. Use this for reproducibility
-        type: string
+        type: int
         default: 42
 
       stratify_by:
@@ -30,7 +30,7 @@ entry_points:
 
       max_tfidf_features:
         description: Maximum number of words to consider for the TFIDF
-        type: string
+        type: int
 
       output_artifact:
         description: Name for the output artifact
